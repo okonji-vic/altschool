@@ -1,0 +1,41 @@
+[class^="channel" i] {
+    width: 110%;
+    display: block;
+    margin: 0;
+
+
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    font-size: large;
+    margin-right: 30px;
+    
+}
+
+[id^="LIST" i] li + li ::before {
+    content: "";
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    rotate: 45deg;
+    margin-right: 8px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: ed;
+}
