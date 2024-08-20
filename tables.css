@@ -1,0 +1,176 @@
+[class^="channel" i] {
+    width: 110%;
+    display: block;
+    margin: 0;
+
+
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    font-size: large;
+    margin-right: 30px;
+    
+}
+
+[id^="LIST" i] li + li ::before {
+    content: "";
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    rotate: 45deg;
+    margin-right: 8px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: ed;
+}
+
+.table2{
+    width: 100%;
+}
+td {
+    font-size: 20px;
+}
+th {
+    font-size: 32px;
+}
+footer {
+    text-align: center;
+    background-color: grey;
+    color: white;
+    padding: 20px;
+}
+button {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .table2{
+        width: 100%;
+    }
+    td {
+        font-size: 18px;
+    }
+    th {
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 710px) {
+    .table2{
+        width: 100%;
+    }
+    td {
+        font-size: 12px;
+    }
+    th {
+        font-size: 15px;
+    }
+
+}
+@media (max-width: 510px) {
+    .table2{
+        width: 100%;
+    }
+    td {
+        font-size: 10px;
+        height: 50px;
+    }
+    th {
+        font-size: 10px;
+    }
+    span {
+        display: block;
+        width: 33px;
+        height: 5px;
+        position: relative;
+        background-color: aquamarine;
+        border-radius: 3px;
+        margin-bottom: 8px;
+   
+    }
+    .span1 {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        width: 40px;
+        height: 4px;
+        position: relative;
+        top: 15px;
+        transform-origin: 50% 100%;
+    } 
+
+    .span2 {
+        opacity: 1;
+        transform: rotate(-45deg) translate(-2px, -1px);
+        width: 40px;
+        height: 4px;
+        position: relative;
+        top: 15px;
+        transform-origin: 0% 0%;
+    }
+
+    .button1 {
+        border: 0px solid;
+        background-color: white;
+        cursor: pointer;
+        
+    } #button2 {
+        border: 0px solid black;
+        width: 30px;
+        margin-bottom: 200px;
+        background-color: grey;
+        cursor: pointer;
+        
+        
+    }
+    button {
+        display: block;
+    }
+    .menu {
+
+        position: relative;
+        left: 0px;
+        top: 0px;
+        width: 40%;
+        margin: 0px 0 0px 0px;
+        padding: 15px 0 15px 0px;
+        padding-top: 15px;
+        background-color: grey;
+        -webkit-font-smoothing: antialiased;
+        transition: left 3.5s;
+        z-index: 1;
+        
+       
+    }
+    .menu li {
+        display: block;
+        padding: 60px 0 0 0px;
+        font-size: 25px;
+        list-style-type: none;
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+    [id^="LIST" i] li + li ::before {
+        display: none;
+    }
+    #list  {
+        display: none;
+    }
+}
+

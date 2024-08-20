@@ -1,0 +1,352 @@
+
+body {
+    margin: 0px;
+    line-height: 1.5;
+}
+form {
+    display: block;
+}
+
+p {
+    line-height: 0.9em;
+}
+
+
+.input {
+    width: 80%;
+    padding: 10px;
+    border-style: inset;
+    background-color: rgba(255, 255, 255, 0.021);
+    border-color: white;
+    background-color: whitesmoke;
+    border-radius: 5px;
+ 
+}
+
+select {
+    width: 87%;
+    padding: 10px;
+    border-style: inset;
+    border-color: white;
+    background-color: whitesmoke;  
+    border-radius: 5px;
+}
+
+.submit {
+    background-color:rgb(106, 31, 243);            
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-right: 50px;
+    border-radius: 5px;
+    padding: 0;
+    height: 6vh;
+    
+
+}
+.button {
+    background-color: rgb(106, 31, 243);
+    border: 0px;
+    cursor: pointer;
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+}
+.placeholder {
+    color: blue;
+
+}
+.leftside{
+    float: left;
+    width: 50%;
+   margin: auto;
+
+}
+.rightside{
+    margin: 0px 0px 0px 350px;
+}
+.divcontainer2{
+              
+
+    color: black;
+    background-color: white;
+    margin: 0px 0px 80px 500px;
+    height: 41em;
+    padding: 10px;
+    
+    
+    
+}
+.divcontainer1{
+    
+    color: black;
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    float: left;
+    margin-right: 10px;
+    text-align: center;     
+    font-weight: bolder;   
+    
+}
+
+.agreement{
+    width: 100%;
+    float: left;
+}
+
+[id^="TEXT" i] {
+    line-height: 1.0em;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+[class^="channel" i] {
+    width: 110%;
+    display: block;
+    margin: 0;
+
+
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    font-size: large;
+    margin-right: 20px;
+    
+}
+
+[id^="LIST" i] li + li ::before {
+    content: "";
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    rotate: 45deg;
+    margin-right: 8px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: ed;
+}
+
+button {
+    display: none;
+}
+
+@media (max-width: 1100px) {
+.divcontainer2 {
+    width: 750px;
+    background-color: white;
+    margin: 30px;
+    padding: 0px;
+    
+}
+.rightside {
+
+    margin: 0px 0px 0px 370px;
+}
+.leftside {
+    float: left;
+    margin: auto;
+    width: 370px;
+}
+
+
+
+.input {
+    width: 70%;
+    padding: 10px;
+    border-style: inset;
+    border-color: white;
+    background-color: whitesmoke;
+   
+}
+
+select {
+    width: 76%;
+    padding: 10px;
+    border-style: inset;
+    border-color: white;
+    background-color: whitesmoke;
+   
+}
+[class^="channel" i] {
+    width: 116%;
+    display: block;
+    margin: 0;
+
+
+}
+.button {
+    background-color: rgb(106, 31, 243);
+    border: 0px;
+    cursor: pointer;
+}
+.agreement{
+    width: 100%;
+    float: left;
+}
+.submit {
+    background-color: rgb(106, 31, 243);  
+    text-align: center;
+    width: 90%;
+    float: left;
+    margin-right: 50px;
+    
+    
+
+}
+.divcontainer1{
+    margin-left: -300%;
+
+}
+button {
+    display: none;
+}
+}
+
+@media (max-width: 710px) {
+
+.divcontainer2 {
+float: left;
+width: 100%;
+padding-right: 0px;
+height: 100%;
+margin-bottom: 5px;
+
+}
+.divcontainer1{
+    margin-left: -300%;        
+}
+
+.rightside {
+float: left;
+margin-left: 0px;
+width: 100%;
+}
+
+.leftside {
+width: 100%;
+margin-right: 0px;
+}
+.input {
+    width: 80%;
+}
+
+select {
+    width: 85%;
+    
+}
+[class^="channel" i] {
+    width: 101%;
+    display: block;
+    margin: 0;
+
+
+}
+.submit {
+    width: 85%;
+    
+}
+
+.agreement {
+    line-height: 1.2em;
+    margin-bottom: 4px;
+    width: 95%;
+}
+
+span {
+    display: block;
+    width: 33px;
+    height: 5px;
+    position: relative;
+    background-color: rgb(10, 10, 168);
+    border-radius: 3px;
+    margin-bottom: 8px;
+
+}
+.span1 {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    width: 40px;
+    height: 4px;
+    position: relative;
+    top: 15px;
+    transform-origin: 50% 100%;
+} 
+
+.span2 {
+    opacity: 1;
+    transform: rotate(-45deg) translate(-2px, -1px);
+    width: 40px;
+    height: 4px;
+    position: relative;
+    top: 15px;
+    transform-origin: 0% 0%;
+}
+
+.button1 {
+    border: 0px solid;
+    background-color: white;
+    cursor: pointer;
+    
+} #button2 {
+    border: 0px solid black;
+    width: 30px;
+    margin-bottom: 200px;
+    background-color: grey;
+    cursor: pointer;
+    
+    
+}
+button {
+    display: block;
+}
+.menu {
+
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 40%;
+    margin: 0px 0 0px 0px;
+    padding: 15px 0 15px 0px;
+    padding-top: 15px;
+    background-color: grey;
+    -webkit-font-smoothing: antialiased;
+    transition: left 3.5s;
+    z-index: 1;
+    
+   
+}
+.menu li {
+    display: block;
+    padding: 70px 0 0 0px;
+    font-size: 25px;
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+[id^="LIST" i] li + li ::before {
+    display: none;
+}
+#list  {
+    display: none;
+}
+a {
+    text-decoration: none;
+}
+}
