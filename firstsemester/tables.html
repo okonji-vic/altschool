@@ -8,13 +8,35 @@
 </head>
 <body>
     <header>
-        <ul id="list">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./biography.html">About</a></li>
-            <li><a href="./tables.html">Tables</a></li>
-            <li><a href="./media.html">Media</a></li>
-        </ul>
         <nav>
+            <div>
+              <button popovertarget="practice" class="button1">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <div popover="manual" id="practice" class="menu" >
+              <button id="button2" popovertarget="practice" >
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <ul id="">
+                  <li class="list"><a href="./index.html">Home</a></li>
+                  <li class="list"><a href="./biography.html">About</a></li>
+                  <li class="list"><a href="./tables.html">Tables</a></li>
+                  <li class="list"><a href="./media.html">Media</a></li>
+              </ul>
+            </div>
+                <ul id="list">
+                  <li class="list"><a href="./index.html">Home</a></li>
+                  <li class="list"><a href="./biography.html">About</a></li>
+                  <li class="list"><a href="./tables.html">Tables</a></li>
+                  <li class="list"><a href="./media.html">Media</a></li>
+              </ul>
+             </button>
+      
+        </div>
+    </nav>
+        
             <table width="100%" bgcolor="grey" cellpadding="7" cellspacing="7">
                 <tr>
                     <td align="center">My Names are Emeka Okonji, a male student currently enrolled into the ALT School
@@ -26,7 +48,7 @@
         </nav>
     </header>
     <main>
-      <table border="4" width="100%" >
+      <table border="4" class="table2">
         <!--this is the table heading-->
         <caption><H1>TABLE SHOWING ALTSCHOOL DIPLOMA PROGRAMS</H1></caption>
         <thead>
