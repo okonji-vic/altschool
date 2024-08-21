@@ -146,13 +146,26 @@ a:visited {
 button {
     display: none;
 }
+#signin {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    padding-right: 50px;
+    
+}
+#signup {
+    line-height: 1.2em;
+    font-size: 19px;
+    
+}
 
 @media (max-width: 1100px) {
 .divcontainer2 {
     width: 750px;
-    background-color: white;
-    margin: 30px;
+    height: 110vh;
+    margin: 30px 30px 0px 30px;
     padding: 0px;
+ 
     
 }
 .rightside {
@@ -217,6 +230,19 @@ select {
 button {
     display: none;
 }
+
+#signin {
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+    padding-right: 50px;
+    
+}
+#signup {
+    line-height: 1.2em;
+    font-size: 18px;
+    
+}
 }
 
 @media (max-width: 710px) {
@@ -248,11 +274,11 @@ margin-right: 0px;
 }
 
 select {
-    width: 85%;
+    width: 84%;
     
 }
 [class^="channel" i] {
-    width: 101%;
+    width: 100%;
     display: block;
     margin: 0;
 
@@ -348,5 +374,17 @@ button {
 }
 a {
     text-decoration: none;
+}
+#signin {
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    padding-right: 50px;
+    
+}
+#signup {
+    line-height: 1.2em;
+    font-size: 14px;
+    
 }
 }

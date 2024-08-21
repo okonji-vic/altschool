@@ -39,6 +39,12 @@ a:hover {
 a:visited {
     color: ed;
 }
+.table1 {
+    background-color: grey;
+    padding: 7px 7px;
+    width: 100%;
+    margin: auto;
+}
 
 .table2{
     width: 100%;
@@ -53,7 +59,9 @@ footer {
     text-align: center;
     background-color: grey;
     color: white;
-    padding: 20px;
+    padding: 20px 0;
+    width: 100%;
+    margin: 0 auto;
 }
 button {
     display: none;
@@ -87,13 +95,17 @@ button {
 @media (max-width: 510px) {
     .table2{
         width: 100%;
+        margin: auto;
     }
-    td {
-        font-size: 10px;
-        height: 50px;
+    [class="table2"] td {
+        font-size: 7px;
+        height: 80px;
     }
-    th {
-        font-size: 10px;
+    [class="table2"] th {
+        font-size: 8px;
+    }
+    h1 {
+        font-size: 20px;
     }
     span {
         display: block;
