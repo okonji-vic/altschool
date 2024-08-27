@@ -1,0 +1,201 @@
+[class^="channel" i] {
+    width: 110%;
+    display: block;
+    margin: 0;
+
+
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    font-size: large;
+    margin-right: 30px;
+    
+}
+
+[id^="LIST" i] li + li ::before {
+    content: "";
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    rotate: 45deg;
+    margin-right: 8px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: ed;
+}
+.table1 {
+    background-color: grey;
+    padding: 7px 7px;
+    width: 100%;
+    margin: auto;
+}
+
+.table2{
+    width: 100%;
+}
+td {
+    font-size: 20px;
+}
+th {
+    font-size: 32px;
+}
+footer {
+    text-align: center;
+    background-color: grey;
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+    margin: 0 auto;
+}
+button {
+    display: none;
+}
+ul {
+    display: inline;
+    padding: 0 0 0 4px;
+
+}
+
+@media (max-width: 900px) {
+    .table2{
+        width: 100%;
+    }
+    td {
+        font-size: 18px;
+    }
+    th {
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 710px) {
+    .table2{
+        width: 100%;
+    }
+    td {
+        font-size: 12px;
+    }
+    th {
+        font-size: 15px;
+    }
+
+}
+@media (max-width: 510px) {
+    .table2{
+        width: 100%;
+        margin: auto;
+    }
+    [class="table2"] td {
+        font-size: 7px;
+        height: 80px;
+    }
+    [class="table2"] th {
+        font-size: 8px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    span {
+        display: block;
+        width: 33px;
+        height: 5px;
+        position: relative;
+        background-color: aquamarine;
+        border-radius: 3px;
+        margin-bottom: 8px;
+   
+    }
+    .span1 {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        width: 40px;
+        height: 4px;
+        position: relative;
+        top: 15px;
+        transform-origin: 50% 100%;
+    } 
+
+    .span2 {
+        opacity: 1;
+        transform: rotate(-45deg) translate(-2px, -1px);
+        width: 40px;
+        height: 4px;
+        position: relative;
+        top: 15px;
+        transform-origin: 0% 0%;
+    }
+
+    .button1 {
+        border: 0px solid;
+        background-color: white;
+        cursor: pointer;
+        
+    } #button2 {
+        border: 0px solid black;
+        width: 30px;
+        margin-bottom: 200px;
+        background-color: grey;
+        cursor: pointer;
+        
+        
+    }
+    button {
+        display: block;
+    }
+    .menu {
+
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 45%;
+        margin: 0px 0 0px 0px;
+        padding: 15px 0 15px 0px;
+        padding-top: 15px;
+        background-color: grey;
+        
+        
+        
+       
+    }
+    .menu li {
+        display: block;
+        padding: 60px 0 20px 0;
+        font-size: 25px;
+        list-style-type: none;
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+    [id^="LIST" i] li + li ::before {
+        display: none;
+    }
+    #list  {
+        display: none;
+    }
+    a {
+        color: aquamarine;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: blue;
+        
+    }
+}
+

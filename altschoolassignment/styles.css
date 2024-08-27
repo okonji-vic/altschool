@@ -1,0 +1,132 @@
+
+ul {
+    display: inline;
+    padding: 0 0 0 4px;
+
+}
+.list {
+    display: inline;
+    list-style-type: none;
+    font-size: large;
+    margin-right: 30px;
+    
+}
+
+[id^="LIST" i] li + li ::before {
+    content: "";
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    rotate: 45deg;
+    margin-right: 8px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: ed;
+}
+button {
+    display: none;
+}
+#list2 {
+    list-style-type: square;
+}
+
+@media (max-width: 710px) {
+
+    span {
+        display: block;
+        width: 33px;
+        height: 5px;
+        position: relative;
+        background-color: aquamarine;
+        border-radius: 3px;
+        margin-bottom: 8px;
+   
+    }
+    .span1 {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        width: 40px;
+        height: 4px;
+        position: relative;
+        top: 15px;
+        transform-origin: 50% 100%;
+    } 
+
+    .span2 {
+        opacity: 1;
+        transform: rotate(-45deg) translate(-2px, -1px);
+        width: 40px;
+        height: 4px;
+        position: relative;
+        top: 15px;
+        transform-origin: 0% 0%;
+    }
+
+    .button1 {
+        border: 0px solid;
+        background-color: white;
+        cursor: pointer;
+        
+    } #button2 {
+        border: 0px solid black;
+        width: 30px;
+        margin-bottom: 200px;
+        background-color: grey;
+        cursor: pointer;
+        
+        
+    }
+    button {
+        display: block;
+    }
+    .menu {
+
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 45%;
+        margin: 0px 0 0px 0px;
+        padding: 15px 0 30px 20px;
+        padding-top: 15px;
+        background-color: grey;
+        transition: left 8.5s;
+        
+        
+       
+    }
+    .menu li {
+        display: block;
+        padding: 60px 0 0 20px;
+        font-size: 25px;
+        list-style-type: none;
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+    [id^="LIST" i] li + li ::before {
+        display: none;
+    }
+    #list  {
+        display: none;
+    }
+    a {
+        text-decoration: none;
+        color: aqua;
+    }
+    #list2 {
+        list-style-type: square;
+    }
+}

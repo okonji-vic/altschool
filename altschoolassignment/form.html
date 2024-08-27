@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup/Sign In</title>
+    <link rel="stylesheet" href="form.css">
+         
+</head>
+<body>
+    <nav>
+        <div>
+          <button popovertarget="practice" class="button1">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div popover="manual" id="practice" class="menu" >
+          <button id="button2" popovertarget="practice" >
+            <span class="span1"></span>
+            <span class="span2"></span>
+            <ul id="">
+              <li class="list"><a href="./index.html">Home</a></li>
+              <li class="list"><a href="./form.html">Form</a></li>
+              <li class="list"><a href="./tables.html">Tables</a></li>
+              <li class="list"><a href="./media.html">Media</a></li>
+          </ul>
+        </div>
+            <ul id="list">
+              <li class="list"><a href="./index.html">Home</a></li>
+              <li class="list"><a href="./biography.html">Form</a></li>
+              <li class="list"><a href="./tables.html">Tables</a></li>
+              <li class="list"><a href="./media.html">Media</a></li>
+          </ul>
+         </button>
+  
+    </div>
+    </nav
+    
+    <header>
+        <table width="103%" height="60" border="0" cellspacing="2" cellpadding="2" bgcolor="blue">
+            <tr>
+                <td align="center">
+            <img src="./photo.jpg" width="50px" height="50px"/>
+               </td>
+            </tr>
+        </table>
+    </header>
+    <div class="divcontainer1">
+        <picture  style="height: 800px;">
+            <source
+            srcset="./altschoolimage.png 360w,
+                    ./altschoolimage.png 2840w,"
+                    >
+            <source
+            srcset="./altschoolimage.png 2x,
+                    ./altschoolimage.png 1x">
+                    <img src="./altschoolimage.png">
+        </picture>
+        <p id="text">Learn highly sought<br>
+after skills without<br>
+hassle.</p><br><br><br>
+<img src="./instagram.png" class="icons">
+<img src="./facebook.svg" class="icons">
+<img src="./icons8-linkedin-50.png" class="icons">
+<p id="footer">Tel: 0800ALTSCHOOL</p>
+<p class="footer">&copy;2024 AltSchool Africa. All rights reserved.</p>
+    </div>
+    <div class="divcontainer2">
+        <p id="signin"><b>Already an altschooler?<a href="https://portal.altschoolafrica.com/auth/login">&nbsp;Sign In!</a></b></p>
+        <form>
+        <p id="signup"><b>Signup</b><br/>Take the next steps to apply at Altschool Africa</p>
+        
+    <div class="leftside">
+        <label for="firstname">First Name</label><br/>
+        <input type="text" id="firstname" required placeholder ="Enter first name" class="input"><br/><br/>
+    </div>
+
+           <div class="rightside">
+        <label for="lastname">Last Name</label><br/>
+        <input type="text" id="lastname" required placeholder="Enter last name" maxlength="100" class="input"><br/><br/>
+           </div>
+           <div class="leftside">
+        <label>Gender</label><br/>
+        <select class="select1">
+            <option value="" disabled selected hidden>Select gender</option>
+            <option value="ML">Male</option>
+            <option value="FM">female</option>
+    
+        </select><br/><br/>
+         </div> 
+         <div class="rightside">
+        <label>Date of Birth</label><br/>
+        <input type="date" required class="input"><br/><br/>
+        </div>
+        <div class="leftside">
+        <label>Email Address</label><br/>
+        <input type="email" required placeholder="Enter email address" class="input"><br/><br/>
+         </div>
+         <div class="rightside">
+        <label>Phone Number</label><br/>
+        <input type="number" required placeholder="08154387000" class="input"><br/><br/>
+        </div>
+        <div class="leftside">
+        <label>Country</label><br/>
+        <select class="select1">
+        
+            <option value="" disabled selected hidden>Select Country</option>
+            <option value="ML">Nigeria</option>
+            <option value="ML">Ghana</option>
+            <option value="ML">Rwanda</option>
+            <option value="FM">Kenya</option>
+            <option value="FM">England</option>
+            <option value="FM">USA</option>
+        
+        </select><br/><br/>
+         </div>
+         <div class="rightside">
+        <label>State/City of Residence</label><br/>
+        <input type="text" placeholder="Enter your state of residence" class="input"><br/><br/>
+         </div>
+         <div >
+        <label>How did you hear about us?</label><br/>
+        <select class="channel">
+        
+            <option value="" disabled selected hidden>Select channel</option>
+            <option value="TW">Twitter</option>
+            <option value="FC">Facebook</option>
+            <option value="LI">Linkedin</option>
+            <option value="YT">Youtube</option>
+            <option value="FR">Friend</option>
+            <option value="WH">Whatsapp</option>
+            <option value="IN">Instagram</option>
+            <option value="BB">Bill Board</option>
+            <option value="SO">Sales Officer</option>
+            <option value="OT">Other</option>
+        
+        </select><br/><br/>
+        </div>
+        
+        <div class="leftside">
+        <label>Password</label><br/>
+        <input type="password" required placeholder="Enter password" class="input"><br/><br/>
+        </div>
+        <div class="rightside">
+        <label>Confirm Password</label><br/>
+        <input type="password" required placeholder="Enter password again" class="input"><br/><br/>
+       </div>
+    
+       <div class="agreement"> 
+        <p class="agreement"><input type="checkbox" required>By clicking continue, I agree to <a href="#">Terms of use</a> and acknowledge that I have 
+            read the <a href="#">Privacy Policy.</a></p>
+        </div>
+        <div class="submit">
+            <p>
+        <input class="button" type="submit" value="Submit!" name="Submit"></p>
+        </div>
+        </div>
+    </form>
+
+    <p id="dateofbirth"></p>
+        
+   
+</body>
+</html>
