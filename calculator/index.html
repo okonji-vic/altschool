@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    //   let button = document.querySelector("button")
+      
+
+      
+      
+
+      
+
+     
+
+    </script>
+</head>
+<body>
+    <input type ="number" id ="number1">
+    <button id="button1">*</button>
+    <button id="button2">+</button>
+    <button id="button3">-</button>
+    <button id="button4">%</button>
+    <button id="button5">/</button>
+    
+    <input type ="number" id ="number2">
+    <button>result</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <input type="number" id="result" placeholder="0">
+    <script>
+        let b1 = document.getElementById("button1")
+        let b2 = document.getElementById("button2")
+        let b3 = document.getElementById("button3")
+        let b4 = document.getElementById("button4")
+        let b5 = document.getElementById("button5")
+        let button = document.querySelector("button");
+
+        function performOperation(mathOperation) {
+        const input1 = parseInt(document.getElementById("number1").value)
+      const input2 = parseInt(document.getElementById("number2").value)
+    //   const input3 = parseInt(document.getElementById("result").textContent)
+        if(isNaN(input1) || isNaN(input2)) {
+        alert("can only perform operation with numbers")
+        return
+      }
+      
+        
+
+
+    
+         let result;
+          
+         
+        if (mathOperation === "*") {
+            result = input1 * input2;
+            } else if (mathOperation === "+") {
+            result = input1 + input2;
+            } else if (mathOperation === "-") {
+            result = input1 - input2;
+            } else if (mathOperation === "%") {
+            result = input1 % input2;
+            } else if (mathOperation === "/") {
+            result = input1 / input2;
+            } else {
+             alert("Invalid operation");
+             return;        
+            }
+            document.getElementById("result").value = result;
+        }   
+        
+
+      
+//  button.addEventListener("click", () => {
+//     performOperation(mathOperation);
+//      console.log(result);
+// });
+
+
+      b1.addEventListener("click", () => {
+        performOperation("*");
+      });
+
+        b2.addEventListener("click", () => {
+            mathOperation = "+";
+            performOperation(mathOperation);
+        });
+       
+        b3.addEventListener("click", () => {
+            mathOperation = "-";
+            performOperation(mathOperation);
+        });
+
+        b4.addEventListener("click", () => {
+            mathOperation = "%";
+            performOperation(mathOperation);
+        });
+
+        b5.addEventListener("click", () => {
+            mathOperation = "/";
+            performOperation(mathOperation);
+        });
+    </script>
+</body>
+</html>
