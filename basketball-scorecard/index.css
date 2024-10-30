@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background-color: rgba(27, 36, 74, 1);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.team, .team2{
+    color: white;
+    width: 30%;
+    text-align: center;
+    font-size: 10vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 68px;
+    
+}
+
+.team div, .team2 div {
+    background-color: black;
+    padding: 10px;
+    width: 92%;
+    height: 30vh;
+    font-size: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(249, 79, 109, 1);
+    font-family: 'CursedTimerUlil';
+}
+
+.team button, .team2 button {
+    background-color: inherit;
+    color: white;
+    border: 1px solid rgba(154, 171, 216, 1);
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 0px;
+    font-family: 'CursedTimerUlil';
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'CursedTimerUlil';
+    src: url('cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf') format('truetype');
+}
+
+.team2 h3 {
+    padding-left: 0px;
+    border: px solid;
+    margin-left: 0px;
+}
